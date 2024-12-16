@@ -1,0 +1,23 @@
+.post_detail{
+    margin-bottom: 2em;
+}
+
+
+.post_detail{
+    max-width: 600px;
+}
+
+
+.post_detail h2{
+    margin-bottom: .4em;
+}
+
+.circle_rating {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 30px;
+    background-color: white;
+    flex-shrink: 0;
+}
+
