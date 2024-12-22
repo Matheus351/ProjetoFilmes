@@ -1,5 +1,5 @@
 
-import { Navigate, useNavigate, useParams } from "react-router-dom";
+import { Link, Navigate, useNavigate, useParams } from "react-router-dom";
 import { useFetchDocument } from "../../hooks/useFetchDocument";
 import styles from "./Post.module.css"
 import { useDeleteDocument } from "../../hooks/useDeletDocuement";
@@ -30,6 +30,7 @@ const Post = () => {
                 <h3 style={{display:"inline-block"}}>Nota: {post.note}</h3>
                 </div>
                 <button className="btn btn-outline btn-danger" onClick={() => del(id)}>Excluir</button>
+               <Link to={`/posts/edit/${id}`}> <button className="btn btn-outline">Editar</button></Link>
             </>}
         </div>
     )

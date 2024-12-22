@@ -9,6 +9,7 @@ import Login from './pages/Login/Login'
 import Register from './pages/Register/Register'
 import Search from './pages/Search/Search'
 import Post from './pages/Post/Post'
+import EditPost from './pages/EditPost/EditPost'
 
 function App() {
  // const [count, setCount] = useState(0)
@@ -24,7 +25,8 @@ function App() {
             <Route path='/login' element={<Login />} />
             <Route path='/register' element={<Register />} />
             <Route path='/search' element={<Search />} />
-            <Route path='/posts/:id' element={<Post/>}/>
+            <Route path='/posts/:id' element={<Post />} />
+            <Route path='/posts/edit/:id' element={<EditPost/>} />
           </Routes>
         </div>
       </BrowserRouter>

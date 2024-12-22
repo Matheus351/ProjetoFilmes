@@ -5,7 +5,7 @@ import CircleRating from "./CircleRating";
 
 const PostDetail = ({ post }) => {
     return (
-        <div className="card" style={{ "width": "18rem;", "padding":"5px","margin":"10px"}}>
+        <div className="card" style={{ "width": "10rem;", "padding": "5px", "margin": "5px"}}>
             <img src={post.image} class="card-img-top" alt="..." style={{maxHeight:"20rem",objectFit:"scale-down"}}/>
             <div className="card-body">
                 <h5 className="card-title">{post.title}</h5>

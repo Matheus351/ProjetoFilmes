@@ -1,4 +1,4 @@
-.post_detail{
+/* .post_detail{
     margin-bottom: 2em;
 }
 
@@ -10,6 +10,11 @@
 
 .post_detail h2{
     margin-bottom: .4em;
+} */
+
+
+.post_detail h5{
+    max-width:200px;
 }
 
 .circle_rating {
