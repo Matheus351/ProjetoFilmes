@@ -17,6 +17,13 @@
     max-width:200px;
 }
 
+
+.card{
+    -webkit-box-shadow: 2px 26px 46px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 26px 46px 11px rgba(0,0,0,0.75);
+    box-shadow: 2px 26px 46px 11px rgba(0,0,0,0.75);
+}
+
 .circle_rating {
     width: 40px;
     height: 40px;

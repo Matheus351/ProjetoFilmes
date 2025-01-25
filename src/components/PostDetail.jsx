@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import CircleRating from "./CircleRating";
-//  import styles from "./PostDeatil.module.css"
+// import styles from "./PostDeatil.module.css"
 
 
 const PostDetail = ({ post }) => {
     return (
-        <div className="card" style={{ "width": "10rem;", "padding": "5px", "margin": "5px"}}>
+        <div className="card" style={{ "width": "10rem;", "padding": "5px", "margin": "7px",  "box-shadow": "5px 4px 46px -8px rgba(255,255,255,1)"}}>
             <img src={post.image} class="card-img-top" alt="..." style={{maxHeight:"20rem",objectFit:"scale-down"}}/>
             <div className="card-body">
                 <h5 className="card-title">{post.title}</h5>

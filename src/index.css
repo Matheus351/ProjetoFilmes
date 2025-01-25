@@ -16,6 +16,16 @@ input:focus, textarea:focus{
   outline: none;
 }
 
+.card:hover{
+  transform: scale(1.02);
+  transition: 0.5s;
+}
+
+body:not(nav){
+  background-color: #000000fa;
+  color: #ffffff;
+}
+
 a,nav, button{
   text-decoration: none;
   background-color: transparent;
