@@ -38,6 +38,10 @@
     color: black;
 }
 
+
+.notactive{
+    color: white;
+}
 @media (max-width:360px){
     .links_list{
         flex-direction: column;

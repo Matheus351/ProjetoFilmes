@@ -1,6 +1,14 @@
 .create_post{
     text-align: center;
     margin: auto;
+    /* border: 1px solid white; */
+    /* background-image: url('https://preview.redd.it/absolute-cinema-is-asymmetrical-so-i-flipped-it-v0-wlv2qyn32i4e1.jpg?width=640&crop=smart&auto=webp&s=b64d88bc1ef0f9109e87fb61f76fa496db37e0a5');
+    background-position: center;
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.64);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125); */
 }
 
 .create_post h2{
@@ -14,7 +22,7 @@
 
 .create_post .preview_title{
     margin-bottom: .2em;
-    color: #000;
+    color: rgb(173, 161, 145);
     font-weight:bold ;
 }
 
@@ -22,6 +30,8 @@
     max-width: 100%;
     margin-bottom: 1em;   
 }
+
+
 
 /* select{
     box-sizing: border-box;

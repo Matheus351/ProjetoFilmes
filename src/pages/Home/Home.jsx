@@ -82,9 +82,9 @@ const Home = () => {
 
             {posts && filmes && (
                 <>
-                    <p>Filmes assistidos:<span style={{ color: "green" }}>{filmes.length}</span></p>
-                    <p>Séries assistidas:<span style={{ color: "green" }}>{series.length}</span></p>
-                    <p>Animes assistidos:<span style={{ color: "green" }}>{animes.length}</span></p>
+                    <p>Filmes assistidos:<span style={{ color: "#58a832" }}>{filmes.length}</span></p>
+                    <p>Séries assistidas:<span style={{ color: "#58a832" }}>{series.length}</span></p>
+                    <p>Animes assistidos:<span style={{ color: "#58a832" }}>{animes.length}</span></p>
                 </>
             )}
 {/* 

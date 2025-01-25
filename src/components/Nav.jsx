@@ -13,12 +13,12 @@ function Nav() {
         </NavLink>
         <ul className={styles.links_list}>
           <li>
-            <NavLink to='/' className={({isActive}) => (isActive ? styles.active : "")}>
+            <NavLink to='/' className={({isActive}) => (isActive ? styles.active : styles.notactive)}>
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink to='/adicionar' className={({isActive}) => (isActive ? styles.active : "")}>
+            <NavLink to='/adicionar' className={({isActive}) => (isActive ? styles.active : styles.notactive)}>
               Adicionar
             </NavLink>
           </li>

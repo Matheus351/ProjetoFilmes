@@ -89,7 +89,7 @@ const CreatePost = () => {
                 <label>
                     <span>Comentário:</span>
                     <textarea name="body"
-                        placeholder="Se quiser insira um comentário..."
+                        placeholder="Deixa aquele comentário que só você sabe..."
                         onChange={(e) => setBody(e.target.value)}
                         value={body}
                     />
